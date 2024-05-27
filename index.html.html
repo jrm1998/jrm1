@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Studio</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .video-tile {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .video-title {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        video {
+            width: 100%;
+            height: 200px; /* Set the desired height for the videos */
+            background-color: #000; /* Background color for video element */
+        }
+    </style>
+</head>
+<body>
+<marquee><h1>WELCOME TO HCIT INTERNET TV</h1></marquee>
+    <div class="container">
+        <div class="video-tile">
+            <div class="video-title">Cinema One</div>
+            <video controls>
+                <source src="https://cinemaone-abscbn-ono.amagi.tv/index.m3u8" type="application/x-mpegURL">
+                <p>Your browser doesn't support HTML5 video. Here is a <a href="https://cinemaone-abscbn-ono.amagi.tv/index.m3u8">link to the video</a> instead.</p>
+            </video>
+        </div>
+        <div class="video-tile">
+            <div class="video-title">Ang Dating Daan</div>
+            <video controls>
+                <source src="https://ythls.armelin.one/channel/UCFRj7FPKTthzA_gfE2PsGJQ.m3u8" type="application/x-mpegURL">
+                <p>Your browser doesn't support HTML5 video. Here is a <a href="https://ythls.armelin.one/channel/UCFRj7FPKTthzA_gfE2PsGJQ.m3u8">link to the video</a> instead.</p>
+            </video>
+        </div>
+        <div class="video-tile">
+            <div class="video-title">Cartoon Network</div>
+            <video controls>
+                <source src="https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8" type="application/x-mpegURL">
+                <p>Your browser doesn't support HTML5 video. Here is a <a href="https://cdn1.skygo.mn/live/disk1/Cartoon_Network/HLS-FTA/Cartoon_Network.m3u8">link to the video</a> instead.</p>
+            </video>
+        </div>
+        <div class="video-tile">
+            <div class="video-title">GMA TV</div>
+            <video controls>
+                <source src="https://ythls.armelin.one/channel/UCKL5hAuzgFQsyrsQKgU0Qng.m3u8" type="application/x-mpegURL">
+                <p>Your browser doesn't support HTML5 video. Here is a <a href="https://ythls.armelin.one/channel/UCKL5hAuzgFQsyrsQKgU0Qng.m3u8">link to the video</a> instead.</p>
+            </video>
+        </div>
+        <div class="video-tile">
+            <div class="video-title">HBO</div>
+            <video controls>
+                <source src="https://z88.ubtvfans.com/live/rx1/332/e5efbdc49c26d46e0559df52a8a03d19/index.m3u8" type="application/x-mpegURL">
+                <p>Your browser doesn't support HTML5 video. Here is a <a href="https://z88.ubtvfans.com/live/rx1/332/e5efbdc49c26d46e0559df52a8a03d19/index.m3u8">link to the video</a> instead.</p>
+            </video>
+        </div>
+    </div>
+</body>
+</html>
